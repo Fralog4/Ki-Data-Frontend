@@ -21,7 +21,7 @@ const Home = () => {
                 marginBottom: '1rem'
               }}
             >
-              Welcome to Ki_Data
+              Welcome to Ki Data
             </h1>
             <h2 
               className="subtitle is-3" 

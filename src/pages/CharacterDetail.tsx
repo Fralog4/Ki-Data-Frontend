@@ -69,7 +69,30 @@ const CharacterDetail = () => {
   }
 
   return (
-    <div className="section" style={{ paddingTop: '5rem' }}>
+    <div 
+      className="section" 
+      style={{ 
+        paddingTop: '5rem', 
+        position: 'relative', // Necessario per posizionare gli elementi figli
+        overflow: 'hidden', // Evita che il contenuto sfocato esca dal contenitore
+        minHeight: '100vh', // Assicura che la sezione occupi l'intera altezza della viewport
+      }}
+    >
+      {/* Sfondo */}
+      <div 
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          backgroundImage: `url('https://w0.peakpx.com/wallpaper/691/720/HD-wallpaper-shenron-dragon-ball.jpg')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          filter: 'blur(4px)',
+          zIndex: -1 // Posiziona dietro gli altri elementi
+        }}
+      ></div>
       <div className="container">
         <div className="columns">
           <div className="column is-one-third">
