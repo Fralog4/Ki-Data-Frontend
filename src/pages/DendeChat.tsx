@@ -45,10 +45,13 @@ const DendeChat = () => {
 
     try {
       const response = await aiAPI.dendechat(inputMessage);
+      const responseText = typeof response.data === 'string' 
+        ? response.data 
+        : response.data?.message || "I'm here to help with any Dragon Ball questions!";
       
       const dendeMessage: Message = {
         id: Date.now() + 1,
-        text: response.data.message || "I'm here to help with any Dragon Ball questions!",
+        text: responseText,
         sender: 'dende' as const,
         timestamp: new Date()
       };
@@ -76,7 +79,7 @@ const DendeChat = () => {
   };
 
   return (
-    <div className="section" style={{ paddingTop: '5rem', minHeight: '100vh', backgroundColor: '#f8f9fa' }}>
+    <div className="section" style={{ paddingTop: '5rem', minHeight: '100vh', backgroundColor: '#f8f9fa', backgroundImage: 'url(../assets/dbz-chat-bg.jpg)', backgroundSize: 'cover' }}>
       <div className="container">
         <div className="columns is-centered">
           <div className="column is-two-thirds">
