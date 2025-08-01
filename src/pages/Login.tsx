@@ -26,14 +26,16 @@ const Login = () => {
     e.preventDefault();
     setLoading(true);
     setError('');
-
+  
     try {
       const response = await authAPI.login(formData);
+      console.log('Login response:', response.data); // Log della risposta
       login(response.data.token);
       navigate('/');
     } catch (error) {
-      setError('Invalid credentials. Please try again.');
-      console.error('Login error:', error);
+      console.error('Full error:', error);
+      console.error('Error response:', error.response?.data); // Dettagli dell'errore
+      setError(error.response?.data?.message || 'Invalid credentials. Please try again.');
     } finally {
       setLoading(false);
     }

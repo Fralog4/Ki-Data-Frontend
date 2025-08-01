@@ -29,8 +29,8 @@ export const characterAPI = {
 
 // Auth API calls
 export const authAPI = {
-  login: (credentials) => api.post('/kiData/auth/authentication', credentials),
-  register: (userData) => api.post('/kiData/auth/registrationUsrOnly', userData),
+  login: (credentials) => api.post('/auth/authentication', credentials),
+  register: (userData) => api.post('/auth/registrationUsrOnly', userData),
 };
 
 // AI API calls
