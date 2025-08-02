@@ -13,15 +13,11 @@ This project was scaffolded using **Lovable**, a platform for creating and manag
 - Explore detailed profiles of Dragon Ball characters.
 - View information such as race, gender, birth date, and skills/abilities.
 
-### 2. **Power Levels**
-- Track and compare character abilities and transformations.
-- Visualize power levels in a structured and easy-to-read format.
-
-### 3. **Dende AI Chat**
+### 2. **Dende AI Chat**
 - Chat with Dende AI to get insights and answers about the Dragon Ball universe.
 - Ask questions about characters, events, and lore.
 
-### 4. **Responsive Design**
+### 3. **Responsive Design**
 - Fully responsive layout optimized for desktop and mobile devices.
 - Smooth user experience across all screen sizes.
 
@@ -33,7 +29,7 @@ This project is built using the following technologies:
 - **TypeScript**: A strongly typed programming language that builds on JavaScript.
 - **React**: A JavaScript library for building user interfaces.
 - **shadcn-ui**: A component library for building modern and accessible UIs.
-- **Tailwind CSS**: A utility-first CSS framework for styling the application.
+- **BULMA CSS**: A modern CSS framework for building responsive and clean designs.
 
 ## Getting Started
 
