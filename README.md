@@ -1,73 +1,64 @@
-# Welcome to your Lovable project
+# Ki-Data Frontend
 
-## Project info
+## Overview
 
-**URL**: https://lovable.dev/projects/6970f4ae-49d1-4679-803a-7995ed57ccb1
+Ki-Data is a frontend application designed to explore the Dragon Ball universe. It provides detailed information about characters, their abilities, transformations, and power levels. The project also includes interactive features such as AI-powered chat functionality to answer questions about the Dragon Ball universe.
 
-## How can I edit this code?
+This project was scaffolded using **Lovable**, a platform for creating and managing web applications efficiently.
 
-There are several ways of editing your application.
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6970f4ae-49d1-4679-803a-7995ed57ccb1) and start prompting.
+### 1. **Character Database**
+- Explore detailed profiles of Dragon Ball characters.
+- View information such as race, gender, birth date, and skills/abilities.
 
-Changes made via Lovable will be committed automatically to this repo.
+### 2. **Power Levels**
+- Track and compare character abilities and transformations.
+- Visualize power levels in a structured and easy-to-read format.
 
-**Use your preferred IDE**
+### 3. **Dende AI Chat**
+- Chat with Dende AI to get insights and answers about the Dragon Ball universe.
+- Ask questions about characters, events, and lore.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 4. **Responsive Design**
+- Fully responsive layout optimized for desktop and mobile devices.
+- Smooth user experience across all screen sizes.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Tech Stack
 
-Follow these steps:
+This project is built using the following technologies:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Vite**: A fast build tool and development server for modern web applications.
+- **TypeScript**: A strongly typed programming language that builds on JavaScript.
+- **React**: A JavaScript library for building user interfaces.
+- **shadcn-ui**: A component library for building modern and accessible UIs.
+- **Tailwind CSS**: A utility-first CSS framework for styling the application.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Prerequisites
+Ensure you have **Node.js** and **npm** installed. You can install them using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### Steps to Run Locally
+1. Clone the repository:
+   ```sh
+   git clone <YOUR_GIT_URL>
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd <YOUR_PROJECT_NAME>
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Credits
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6970f4ae-49d1-4679-803a-7995ed57ccb1) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project was scaffolded using **Lovable** and built with modern web technologies to deliver a seamless experience for Dragon Ball fans.
