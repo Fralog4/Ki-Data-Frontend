@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { aiAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { Message } from '../types';
+import chatBackground from '../assets/dbz-chat-bg.jpg';
 
 const DendeChat = () => {
   const [messages, setMessages] = useState<Message[]>([
@@ -79,7 +80,8 @@ const DendeChat = () => {
   };
 
   return (
-    <div className="section" style={{ paddingTop: '5rem', minHeight: '100vh', backgroundColor: '#f8f9fa', backgroundImage: 'url(../assets/dbz-chat-bg.jpg)', backgroundSize: 'cover' }}>
+    <div className="section" style={{ paddingTop: '5rem', minHeight: '100vh', backgroundColor: '#f8f9fa', 
+      backgroundImage: `url(${chatBackground})`,backgroundPosition: 'center' }}>
       <div className="container">
         <div className="columns is-centered">
           <div className="column is-two-thirds">

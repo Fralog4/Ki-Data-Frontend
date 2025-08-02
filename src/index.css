@@ -37,6 +37,7 @@
   min-height: 100vh;
   position: relative;
   overflow: hidden;
+  opacity: 0.9; 
 }
 
 .dbz-hero::before {
